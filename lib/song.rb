@@ -28,8 +28,9 @@ class Song
 
   def genre_count
     new_genre_count = {}
-    @@genres.uniq.each do
-
+    @@genres.uniq.each do |item|
+      # key => value
+      # hash[key] = value
     end
   end
 
