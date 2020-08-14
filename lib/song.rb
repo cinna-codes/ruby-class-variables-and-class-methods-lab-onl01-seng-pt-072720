@@ -32,9 +32,9 @@ class Song
       # key => value
       # hash[key] = value
       if new_genre_count.include?(genre_name)
-        new_genre_count[item] +=1
+        new_genre_count[genre_name] +=1
       else
-        new_genre_count[item] = 1
+        new_genre_count[genre_name] = 1
       end
     end
     new_genre_count
@@ -44,9 +44,9 @@ class Song
     new_artist_count = {}
     @@artists.each do |artist_name|
       if new_artist_count.include?(artist_name)
-        new_artist_count[item] +=1
+        new_artist_count[artist_name] +=1
       else
-        new_artist_count[item] = 1
+        new_artist_count[artist_name] = 1
       end
     end
     new_artist_count
