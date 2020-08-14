@@ -33,8 +33,9 @@ class Song
       # hash[key] = value
       if new_genre_count.include?(item)
         new_genre_count[item] +=1
-      end
-      new_genre_count[item] =
+      else
+      new_genre_count[item] = 1
+    end
     end
   end
 
