@@ -54,7 +54,7 @@ class Song
 
   def artist_count
 
-    general_count
+    self.general_count
 
   end
 
