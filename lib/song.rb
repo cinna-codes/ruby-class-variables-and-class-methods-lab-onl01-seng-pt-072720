@@ -51,5 +51,5 @@ class Song
     end
   new_artist_count
 end
-  
+
 end
