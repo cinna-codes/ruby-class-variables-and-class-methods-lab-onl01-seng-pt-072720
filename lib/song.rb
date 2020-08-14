@@ -52,4 +52,16 @@ class Song
     new_artist_count
   end
 
+  #  def self.general_count(argument)
+    #   new_count = {}
+    #   argument.each do |argument_items|
+    #     if new_artist_count.include?(argument_items)
+    #       new_artist_count[argument_items] +=1
+    #     else
+    #       new_artist_count[argument_items] = 1
+    #     end
+    #   end
+    #   new_count
+    # end
+
 end
