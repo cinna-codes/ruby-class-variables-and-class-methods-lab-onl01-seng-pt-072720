@@ -37,6 +37,7 @@ class Song
       new_genre_count[item] = 1
     end
     end
+    new_genre_count
   end
 
 end
