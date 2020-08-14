@@ -49,7 +49,7 @@ class Song
         new_artist_count[item] = 1
       end
     end
-  new_artist_count
-end
+    new_artist_count
+  end
 
 end
