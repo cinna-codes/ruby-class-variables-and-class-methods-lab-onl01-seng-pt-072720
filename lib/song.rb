@@ -55,7 +55,7 @@ class Song
   # def self.artist_count(argument)
   #   self.general_count(argument)
   # end
-  # 
+  #
   #   def self.general_count(argument)
   #     new_count = {}
   #     argument.each do |argument_items|
