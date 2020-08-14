@@ -43,13 +43,12 @@ class Song
   def self.artist_count
     new_artist_count = {}
     @@artists.each do |item|
-      
+      if new_artist_count.include?(item)
+        new_artist_count[item] +=1
+      else
+        new_artist_count[item] = 1
+      end
     end
   end
-
-
-
-
-
 
 end
