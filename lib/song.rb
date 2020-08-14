@@ -19,7 +19,7 @@ class Song
   end
 
   def artists
-    return @@artists.uniq!
+    @@artists.uniq!
   end
 
 end
