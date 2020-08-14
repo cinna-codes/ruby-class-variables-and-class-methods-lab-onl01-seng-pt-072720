@@ -34,7 +34,7 @@ class Song
       if new_genre_count.include?(item)
         new_genre_count[item] +=1
       end
-      new_genre_count[item] = 
+      new_genre_count[item] =
     end
   end
 
