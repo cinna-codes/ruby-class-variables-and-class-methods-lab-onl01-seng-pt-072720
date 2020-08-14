@@ -52,10 +52,8 @@ class Song
   #   new_artist_count
   # end
 
-  def self.artist_count
-
-    self.general_count(@@artists)
-
+  def self.artist_count(argument)
+    self.general_count(argument)
   end
 
     def self.general_count(argument)
