@@ -27,7 +27,10 @@ class Song
   end
 
   def genre_count
-    @@genres.uniq
+    new_genre_count = {}
+    @@genres.uniq.each do
+
+    end
   end
 
 end
