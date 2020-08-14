@@ -52,7 +52,7 @@ class Song
   #   new_artist_count
   # end
 
-  def artist_count
+  def self.artist_count
 
     self.general_count
 
